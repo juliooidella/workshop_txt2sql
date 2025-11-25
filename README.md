@@ -11,6 +11,18 @@ Este repositório contém o código prático da palestra **"Silenciando o Canhã
 3.  **Function Calling Realista:** Como Agentes de IA (LLMs) devem orquestrar SQL de forma determinística, e não rodar código arbitrário.
 4.  **Comparativo de Código:** `20 linhas de Pandas` vs `3 linhas de SQL`.
 
+## 🗄️ Sobre o DuckDB
+
+**DuckDB** é um mecanismo SQL *in-process*, de alto desempenho, projetado para análise analítica rápida e eficiente em memória. Embora este projeto demonstre seu uso em **Python**, DuckDB é **agnóstico de linguagem** e pode ser integrado em diversos ecossistemas:
+
+- **Python** (nativo) — [Bindings oficiais](https://duckdb.org/docs/api/python/overview)
+- **Java/JVM** — [JDBC Driver](https://duckdb.org/docs/api/java)
+- **JavaScript/Node.js** — [Bindings nativos](https://duckdb.org/docs/api/nodejs/overview)
+- **C/C++** — [API C oficial](https://duckdb.org/docs/api/c/overview)
+- **Rust**, **Go**, **R** e muito mais
+
+Isso torna o DuckDB uma solução **verdadeiramente portátil**: você pode usar a mesma lógica SQL em arquiteturas distintas, do data engineering ao backend de produção, sem reimplementar a solução.
+
 ## 🛠️ Instalação Rápida (Qualquer SO)
 
 Utilizamos o **[uv](https://docs.astral.sh/uv/)** para garantir que o projeto rode em Linux, Mac e Windows sem conflitos.
