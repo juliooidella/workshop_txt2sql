@@ -41,8 +41,8 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 ### 2. Configure e Rode
 ```bash
 # Clone o projeto
-git clone https://github.com/seu-usuario/silenciando-o-canhao.git
-cd silenciando-o-canhao
+git clone https://github.com/juliooidella/workshop_txt2sql.git
+cd workshop_txt2sql
 
 # Inicializa dependências (DuckDB, Pandas, Jupyter, FastAPI)
 uv sync
